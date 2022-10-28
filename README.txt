@@ -29,7 +29,7 @@ Note: SDF files left intentionally blank (temporary)
 Folder: ./bace1
 
 Files for: Figure 2 
-Note: Janssen Pharmaceuticals dataset: only includes similarty scores and randomly assigned names
+Note: Janssen Pharmaceuticals dataset only includes similarty scores and randomly assigned names
 Folder: ./figure_2
 
 
