@@ -25,9 +25,11 @@ Files for: Calculation of leverages and plots
 Folder:	./leverages
 
 Files for: Optimization of the BACE1 ligand set
+Note: SDF files left intentionally blank (temporary)
 Folder: ./bace1
 
-Files for: Figure 2 (Janssen Pharmaceuticals dataset)
+Files for: Figure 2 
+Note: Janssen Pharmaceuticals dataset: only includes similarty scores and randomly assigned names
 Folder: ./figure_2
 
 
