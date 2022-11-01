@@ -1,3 +1,4 @@
+# The values listed are averages over 200 trials each.
 #n 	k 	A-opt		D-opt		Random
 30	30	1.4444444	5.4944444	5.3541667
 30	40	1.2202688	1.9119383	2.1380484
