@@ -13,7 +13,7 @@ Refs:
 # *****************************************************************************
 # Written by Dr. Mary Pitman. 2022
 # You must have HiMap installed to run, and include mod from Ref 2 above
-# This is an 'academic script' toggled via commenting.
+# Toggle n and k_inputs via commenting.
 # *****************************************************************************
 
 #-------------------------------------------------------#
