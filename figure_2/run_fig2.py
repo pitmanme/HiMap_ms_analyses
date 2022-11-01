@@ -2,7 +2,7 @@ import lomap
 
 """
 Running this script with HiMap installed will reproduce the results in Fig. 2.
-Must vary epsilon in the interactive run to output D and E.
+Must vary epsilon in the interactive run to output Figure 2 panels D and E.
 """
 # *****************************************************************************
 # This example file was written by Dr. Mary Pitman. 2022
