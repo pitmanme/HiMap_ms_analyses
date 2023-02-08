@@ -32,6 +32,8 @@ Files for: Figure 2
 Note: Janssen Pharmaceuticals dataset only includes similarty scores and randomly assigned names
 Folder: ./figure_2
 
+Files for: checking the similarity diversity for SI figure
+Folder: ./check_diversity
 
 
 
