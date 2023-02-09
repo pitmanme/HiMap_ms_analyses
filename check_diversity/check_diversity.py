@@ -202,8 +202,9 @@ df20 = pd.DataFrame(df_20.to_numpy().flatten())
 #-----------------------------
 # Uncomment for maximum scores
 #-----------------------------
-'''
+
 df0_max = df_0.max(axis=1)
+print(df0_max)
 df1_max = df_1.max(axis=1)
 df2_max = df_2.max(axis=1)
 df01_max = df_01.max(axis=1)
@@ -216,6 +217,33 @@ df2 = pd.DataFrame(df2_max)
 df01 = pd.DataFrame(df01_max)
 df12= pd.DataFrame(df12_max)
 df20 = pd.DataFrame(df20_max)
+
+#-----------------------------
+# Max heatmap
+#-----------------------------
+
+#The maximums of the whole groups
+av0 = df0_max.max()
+print(av0)
+av1 = df1_max.max()
+av2 = df2_max.max()
+
+av01 = df01_max.max()
+av12 = df12_max.max()
+av20 = df20_max.max()
+
+print(f'The max value for cluster 0, 1, 2 are {av0}, {av1}, and {av2}')
+print(f'The max value for off diagonal values between cluster 0 to 1, 1 to 2, 2 to 0 are {av01}, {av12}, and {av20}')
+
+d = {'0': [av0, av01, av20], '1': [av01, av1, av12], '2': [av20, av12, av2]}
+df_heatmap = pd.DataFrame(data=d)
+
+plt.imshow(df_heatmap, cmap ="inferno")
+
+plt.colorbar()
+plt.show()
+
+
 '''
 #-----------------------------
 
@@ -227,8 +255,10 @@ plt.figure()
 joyplot(df, figsize=(10,12), alpha=0.6, x_range = [0, 1], overlap = 0.8, kind="normalized_counts", bins=25, colormap=cm.inferno, linewidth=1)
 #plt.xlim(0.8, 1)
 
+
 plt.tight_layout()
 #plt.title('Maximum Similarity Score Per Ligand', fontsize=18)
 plt.title('Similarity Scores', fontsize=18)
 plt.show()
 #plt.savefig('confidence_values_joyplot.png')
+'''
