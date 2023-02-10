@@ -1,0 +1,15 @@
+ptp1b
+The computed, default cutoff is 0.808.
+
+[1] "Preparing A optimization"
+[1] "Preparing D optimization"
+[1] "Number of ligands: 23"
+[1] "The minimum edge s= 22 , maximum = 254"
+[1] "The number of chosen edges is 46"
+
+[1] "Critical Data:"
+# A tibble: 2 × 5
+  DESIGN                A     D  A.ap  D.ap
+  <chr>             <dbl> <dbl> <dbl> <dbl>
+1 A-optimal (lomap)  22.7 0.377  55.3 1.15 
+2 D-optimal (lomap)  28.1 0.386  65.3 0.969
