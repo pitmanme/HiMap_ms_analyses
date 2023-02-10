@@ -1,0 +1,16 @@
+[1] "Critical Data:"
+# A tibble: 2 × 5
+  DESIGN                A     D  A.ap  D.ap
+  <chr>             <dbl> <dbl> <dbl> <dbl>
+1 A-optimal (lomap)  15.8 0.368  41.4  1.39
+2 D-optimal (lomap)  16.1 0.355  47.0  1.22
+
+
+cdk2
+eps = 0.777 (default)
+[1] "Number of ligands: 16"
+[1] "The minimum edges= 15 ,maximum= 121"
+[1] "The number of chosen edges is 32"
+[1] "Iteration to find seed design"
+
+[1] "Finite log(det(inf.mat)) found, -15.4727764522763"

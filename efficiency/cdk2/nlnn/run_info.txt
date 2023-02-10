@@ -1,0 +1,7 @@
+cdk2
+eps = 0.777 (default)
+[1] "Number of ligands: 16"
+[1] "The minimum edges= 15 ,maximum= 121"
+[1] "The number of chosen edges is 44"
+[1] "Iteration to find seed design"
+[1] "Finite log(det(inf.mat)) found, -15.4727764522763"
