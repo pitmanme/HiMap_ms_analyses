@@ -32,7 +32,7 @@ WEIGHT <- c(0.5488116360940264, 0.9851119396030626, 0.522045776761016, 0.7788007
 maxim <- max(WEIGHT)
 minim <- min(WEIGHT)
 
-SIM_WEIGHT <- c((WEIGHT^2 - minim^2+0.01)/(maxim^2 - minim^2))
+SIM_WEIGHT <- c((WEIGHT^2 - minim^2)/(maxim^2 - minim^2))
 #print(SIM_WEIGHT)
 
 analysis.dat<- data.frame(LIGAND_1, LIGAND_2, SIM_WEIGHT)
