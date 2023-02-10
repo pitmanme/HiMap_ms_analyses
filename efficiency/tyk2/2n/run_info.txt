@@ -1,0 +1,18 @@
+tyk2
+Note: the default wanted to treat one of the ligands as noise, but I'm not sure if it is actually needed. Default was around 0.7. I am going to instead try running at epsilon 1. 
+
+[1] "Preparing A optimization"
+[1] "Preparing D optimization"
+[1] "Number of ligands: 16"
+[1] "The minimum edge s= 15 , maximum = 121"
+[1] "The number of chosen edges is 32"
+[1] "Iteration to find seed design"
+[1] "Finite log(det(inf.mat)) found, -11.0395960348112"
+[1] "Invertible solution found."
+
+[1] "Critical Data:"
+# A tibble: 2 × 5
+  DESIGN                A     D  A.ap  D.ap
+  <chr>             <dbl> <dbl> <dbl> <dbl>
+1 A-optimal (lomap)  14.7 0.372  34.6 1.13 
+2 D-optimal (lomap)  16.2 0.374  47.5 0.906

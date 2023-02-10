@@ -1,0 +1,129 @@
+A suggested range for neighbor distances is between 0.0 and 0.699.
+The computed, default cutoff is 0.699.
+Enter a neighbor distance cutoff for clustering:1
+Estimated number of clusters: 1
+Estimated number of noise points: 0
+Which clusters do you want to optimize?
+-----------------------------------------------------------------
+                    Cluster Selection table                      
+-----------------------------------------------------------------
+Input    Variable        Meaning   
+a        all             Optimize all clusters.
+w        w_ref_lig       Optimize clusters w/ reference ligands.
+ints     list of ints    Select cluster numbers from figure.
+-----------------------------------------------------------------
+<Hit Enter>
+Input a, w, or cluster numbers(ints):
+The clusters found are:
+{
+    "0": [
+        "lig_ejm_31",
+        "lig_ejm_42",
+        "lig_ejm_43",
+        "lig_ejm_44",
+        "lig_ejm_45",
+        "lig_ejm_46",
+        "lig_ejm_47",
+        "lig_ejm_48",
+        "lig_ejm_49",
+        "lig_ejm_50",
+        "lig_ejm_54",
+        "lig_ejm_55",
+        "lig_jmc_23",
+        "lig_jmc_27",
+        "lig_jmc_28",
+        "lig_jmc_30"
+    ]
+}
+The input number of edges is 23
+The reference ligand is lig_ejm_31
+[1] "Preparing A optimization"
+[1] "Preparing D optimization"
+[1] "Number of ligands: 16"
+[1] "The number of chosen edges is 23"
+[1] "Iteration 1 to find seed design."
+[1] "Iteration 2 to find seed design."
+[1] "Iteration 3 to find seed design."
+[1] "Finite log(det(inf.mat)) found, -20.3435956058214"
+[1] "Invertible solution found."
+[1] "Iteration 1 (criterion = -283.1)"
+[1] "Iteration 2 (criterion = -136.6)"
+[1] "Iteration 3 (criterion = -96.57)"
+[1] "Iteration 4 (criterion = -82.19)"
+[1] "Iteration 5 (criterion = -70.52)"
+[1] "Iteration 6 (criterion = -64.15)"
+[1] "Iteration 7 (criterion = -58.52)"
+[1] "Iteration 8 (criterion = -55.89)"
+[1] "Iteration 9 (criterion = -53.59)"
+[1] "Iteration 10 (criterion = -51.61)"
+[1] "Iteration 11 (criterion = -50.18)"
+[1] "Iteration 12 (criterion = -49.2)"
+[1] "Iteration 13 (criterion = -48.18)"
+[1] "Iteration 14 (criterion = -47.34)"
+[1] "Iteration 15 (criterion = -46.79)"
+[1] "Iteration 16 (criterion = -46.13)"
+[1] "Iteration 17 (criterion = -45.53)"
+[1] "Iteration 18 (criterion = -45.35)"
+[1] "Iteration 19 (criterion = -45.34)"
+[1] "Iteration 1 (criterion = 0.000000001462)"
+[1] "Iteration 2 (criterion = 0.0000001043)"
+[1] "Iteration 3 (criterion = 0.000001512)"
+[1] "Iteration 4 (criterion = 0.00001393)"
+[1] "Iteration 5 (criterion = 0.00008303)"
+[1] "Iteration 6 (criterion = 0.0003556)"
+[1] "Iteration 7 (criterion = 0.0009244)"
+[1] "Iteration 8 (criterion = 0.002077)"
+[1] "Iteration 9 (criterion = 0.004291)"
+[1] "Iteration 10 (criterion = 0.0072)"
+[1] "Iteration 11 (criterion = 0.009711)"
+[1] "Iteration 12 (criterion = 0.01303)"
+[1] "Iteration 13 (criterion = 0.01738)"
+[1] "Iteration 14 (criterion = 0.02203)"
+[1] "Iteration 15 (criterion = 0.02509)"
+[1] "Iteration 16 (criterion = 0.02688)"
+[1] "Iteration 17 (criterion = 0.02864)"
+[1] "Iteration 18 (criterion = 0.02918)"
+[1] "Iteration 19 (criterion = 0.02939)"
+Joining, by = c("LIGAND_1", "LIGAND_2")
+[1] "Critical Data:"
+# A tibble: 2 × 5
+  DESIGN         A     D  A.ap  D.ap
+  <chr>      <dbl> <dbl> <dbl> <dbl>
+1 A -optimal  18.3 0.587  45.3  1.60
+2 D -optimal  20.4 0.554  67.9  1.25
+[1] "Vertex Data:"
+# A tibble: 32 × 5
+   DESIGN     LIGAND           X       Y REF             
+   <chr>      <chr>        <dbl>   <dbl> <fct>           
+ 1 A -optimal lig_ejm_31  316.    198.   Reference Ligand
+ 2 A -optimal lig_ejm_46    6.82  128.   Other           
+ 3 A -optimal lig_ejm_42  633.     -1.70 Other           
+ 4 A -optimal lig_jmc_23  166.    466.   Other           
+ 5 A -optimal lig_jmc_28  -18.2   342.   Other           
+ 6 A -optimal lig_jmc_27  106.    375.   Other           
+ 7 A -optimal lig_ejm_49  650.    223.   Other           
+ 8 A -optimal lig_ejm_54  347.     -1.75 Other           
+ 9 A -optimal lig_ejm_47  469.    -66.8  Other           
+10 A -optimal lig_ejm_50  237.    -18.2  Other           
+11 A -optimal lig_ejm_44  446.    333.   Other           
+12 A -optimal lig_ejm_45  156.     60.7  Other           
+13 A -optimal lig_ejm_48  554.    103.   Other           
+14 A -optimal lig_jmc_30   48.5   234.   Other           
+15 A -optimal lig_ejm_55  566.    374.   Other           
+16 A -optimal lig_ejm_43  335.    419.   Other           
+17 D -optimal lig_jmc_23 -401.   -590.   Other           
+18 D -optimal lig_ejm_31 -526.   -310.   Reference Ligand
+19 D -optimal lig_ejm_46 -307.   -537.   Other           
+20 D -optimal lig_ejm_42 -601.     97.8  Other           
+21 D -optimal lig_jmc_28 -275.   -736.   Other           
+22 D -optimal lig_ejm_50 -766.   -146.   Other           
+23 D -optimal lig_ejm_44 -801.    224.   Other           
+24 D -optimal lig_jmc_27 -437.   -773.   Other           
+25 D -optimal lig_ejm_43 -662.    -68.0  Other           
+26 D -optimal lig_ejm_54 -453.    -21.9  Other           
+27 D -optimal lig_jmc_30 -133.   -695.   Other           
+28 D -optimal lig_ejm_45 -611.   -465.   Other           
+29 D -optimal lig_ejm_55 -888.     23.5  Other           
+30 D -optimal lig_ejm_48 -351.   -363.   Other           
+31 D -optimal lig_ejm_49 -412.   -162.   Other           
+32 D -optimal lig_ejm_47 -316.   -237.   Other 
