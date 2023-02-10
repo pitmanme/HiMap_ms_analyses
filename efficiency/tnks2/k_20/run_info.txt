@@ -1,0 +1,315 @@
+A suggested range for neighbor distances is between 0.865 and 1.0.
+The computed, default cutoff is 1.0.
+Enter a neighbor distance cutoff for clustering:0.865
+Estimated number of clusters: 2
+Estimated number of noise points: 0
+Which clusters do you want to optimize?
+-----------------------------------------------------------------
+                    Cluster Selection table                      
+-----------------------------------------------------------------
+Input    Variable        Meaning   
+a        all             Optimize all clusters.
+w        w_ref_lig       Optimize clusters w/ reference ligands.
+ints     list of ints    Select cluster numbers from figure.
+-----------------------------------------------------------------
+<Hit Enter>
+Input a, w, or cluster numbers(ints):0
+The clusters found are:
+{
+    "0": [
+        "lig_1a",
+        "lig_1b",
+        "lig_3a",
+        "lig_3b",
+        "lig_5a",
+        "lig_5b",
+        "lig_5c",
+        "lig_5d",
+        "lig_5e",
+        "lig_5f",
+        "lig_5g",
+        "lig_5h",
+        "lig_5i",
+        "lig_5j",
+        "lig_5k",
+        "lig_5l",
+        "lig_5m",
+        "lig_5n",
+        "lig_5o",
+        "lig_5p",
+        "lig_7"
+    ],
+    "1": [
+        "lig_8a",
+        "lig_8b",
+        "lig_8c",
+        "lig_8d",
+        "lig_8e",
+        "lig_8f"
+    ]
+}
+The input number of edges is 20
+The reference ligand is lig_5a
+[1] "Preparing A optimization"
+[1] "Preparing D optimization"
+[1] "Number of ligands: 21"
+[1] "The number of chosen edges is 20"
+[1] "Iteration 1 to find seed design."
+[1] "Iteration 2 to find seed design."
+[1] "Iteration 3 to find seed design."
+[1] "Iteration 4 to find seed design."
+[1] "Iteration 5 to find seed design."
+[1] "Iteration 6 to find seed design."
+[1] "Iteration 7 to find seed design."
+[1] "Iteration 8 to find seed design."
+[1] "Iteration 9 to find seed design."
+[1] "Iteration 10 to find seed design."
+[1] "Iteration 11 to find seed design."
+[1] "Iteration 12 to find seed design."
+[1] "Iteration 13 to find seed design."
+[1] "Iteration 14 to find seed design."
+[1] "Iteration 15 to find seed design."
+[1] "Iteration 16 to find seed design."
+[1] "Iteration 17 to find seed design."
+[1] "Iteration 18 to find seed design."
+[1] "Iteration 19 to find seed design."
+[1] "Iteration 20 to find seed design."
+[1] "Iteration 21 to find seed design."
+[1] "Iteration 22 to find seed design."
+[1] "Iteration 23 to find seed design."
+[1] "Iteration 24 to find seed design."
+[1] "Iteration 25 to find seed design."
+[1] "Iteration 26 to find seed design."
+[1] "Iteration 27 to find seed design."
+[1] "Iteration 28 to find seed design."
+[1] "Iteration 29 to find seed design."
+[1] "Iteration 30 to find seed design."
+[1] "Iteration 31 to find seed design."
+[1] "Iteration 32 to find seed design."
+[1] "Iteration 33 to find seed design."
+[1] "Iteration 34 to find seed design."
+[1] "Iteration 35 to find seed design."
+[1] "Iteration 36 to find seed design."
+[1] "Iteration 37 to find seed design."
+[1] "Iteration 38 to find seed design."
+[1] "Iteration 39 to find seed design."
+[1] "Iteration 40 to find seed design."
+[1] "Iteration 41 to find seed design."
+[1] "Iteration 42 to find seed design."
+[1] "Iteration 43 to find seed design."
+[1] "Finite log(det(inf.mat)) found, -55.7674916197778"
+[1] "Iteration 44 to find seed design."
+[1] "Iteration 45 to find seed design."
+[1] "Iteration 46 to find seed design."
+[1] "Iteration 47 to find seed design."
+[1] "Iteration 48 to find seed design."
+[1] "Iteration 49 to find seed design."
+[1] "Iteration 50 to find seed design."
+[1] "Iteration 51 to find seed design."
+[1] "Iteration 52 to find seed design."
+[1] "Iteration 53 to find seed design."
+[1] "Iteration 54 to find seed design."
+[1] "Iteration 55 to find seed design."
+[1] "Iteration 56 to find seed design."
+[1] "Iteration 57 to find seed design."
+[1] "Iteration 58 to find seed design."
+[1] "Iteration 59 to find seed design."
+[1] "Iteration 60 to find seed design."
+[1] "Iteration 61 to find seed design."
+[1] "Iteration 62 to find seed design."
+[1] "Iteration 63 to find seed design."
+[1] "Iteration 64 to find seed design."
+[1] "Iteration 65 to find seed design."
+[1] "Iteration 66 to find seed design."
+[1] "Iteration 67 to find seed design."
+[1] "Iteration 68 to find seed design."
+[1] "Iteration 69 to find seed design."
+[1] "Iteration 70 to find seed design."
+[1] "Iteration 71 to find seed design."
+[1] "Iteration 72 to find seed design."
+[1] "Iteration 73 to find seed design."
+[1] "Iteration 74 to find seed design."
+[1] "Iteration 75 to find seed design."
+[1] "Iteration 76 to find seed design."
+[1] "Iteration 77 to find seed design."
+[1] "Iteration 78 to find seed design."
+[1] "Iteration 79 to find seed design."
+[1] "Iteration 80 to find seed design."
+[1] "Iteration 81 to find seed design."
+[1] "Iteration 82 to find seed design."
+[1] "Iteration 83 to find seed design."
+[1] "Iteration 84 to find seed design."
+[1] "Iteration 85 to find seed design."
+[1] "Iteration 86 to find seed design."
+[1] "Iteration 87 to find seed design."
+[1] "Iteration 88 to find seed design."
+[1] "Iteration 89 to find seed design."
+[1] "Iteration 90 to find seed design."
+[1] "Iteration 91 to find seed design."
+[1] "Iteration 92 to find seed design."
+[1] "Iteration 93 to find seed design."
+[1] "Iteration 94 to find seed design."
+[1] "Iteration 95 to find seed design."
+[1] "Iteration 96 to find seed design."
+[1] "Iteration 97 to find seed design."
+[1] "Iteration 98 to find seed design."
+[1] "Iteration 99 to find seed design."
+[1] "Iteration 100 to find seed design."
+[1] "Iteration 101 to find seed design."
+[1] "Iteration 102 to find seed design."
+[1] "Iteration 103 to find seed design."
+[1] "Iteration 104 to find seed design."
+[1] "Iteration 105 to find seed design."
+[1] "Iteration 106 to find seed design."
+[1] "Iteration 107 to find seed design."
+[1] "Iteration 108 to find seed design."
+[1] "Iteration 109 to find seed design."
+[1] "Iteration 110 to find seed design."
+[1] "Iteration 111 to find seed design."
+[1] "Iteration 112 to find seed design."
+[1] "Iteration 113 to find seed design."
+[1] "Iteration 114 to find seed design."
+[1] "Iteration 115 to find seed design."
+[1] "Iteration 116 to find seed design."
+[1] "Iteration 117 to find seed design."
+[1] "Iteration 118 to find seed design."
+[1] "Iteration 119 to find seed design."
+[1] "Iteration 120 to find seed design."
+[1] "Iteration 121 to find seed design."
+[1] "Iteration 122 to find seed design."
+[1] "Iteration 123 to find seed design."
+[1] "Iteration 124 to find seed design."
+[1] "Iteration 125 to find seed design."
+[1] "Iteration 126 to find seed design."
+[1] "Iteration 127 to find seed design."
+[1] "Iteration 128 to find seed design."
+[1] "Iteration 129 to find seed design."
+[1] "Iteration 130 to find seed design."
+[1] "Iteration 131 to find seed design."
+[1] "Iteration 132 to find seed design."
+[1] "Iteration 133 to find seed design."
+[1] "Iteration 134 to find seed design."
+[1] "Iteration 135 to find seed design."
+[1] "Iteration 136 to find seed design."
+[1] "Iteration 137 to find seed design."
+[1] "Iteration 138 to find seed design."
+[1] "Iteration 139 to find seed design."
+[1] "Iteration 140 to find seed design."
+[1] "Iteration 141 to find seed design."
+[1] "Iteration 142 to find seed design."
+[1] "Iteration 143 to find seed design."
+[1] "Iteration 144 to find seed design."
+[1] "Iteration 145 to find seed design."
+[1] "Iteration 146 to find seed design."
+[1] "Iteration 147 to find seed design."
+[1] "Iteration 148 to find seed design."
+[1] "Iteration 149 to find seed design."
+[1] "Iteration 150 to find seed design."
+[1] "Iteration 151 to find seed design."
+[1] "Iteration 152 to find seed design."
+[1] "Iteration 153 to find seed design."
+[1] "Iteration 154 to find seed design."
+[1] "Iteration 155 to find seed design."
+[1] "Iteration 156 to find seed design."
+[1] "Iteration 157 to find seed design."
+[1] "Iteration 158 to find seed design."
+[1] "Iteration 159 to find seed design."
+[1] "Iteration 160 to find seed design."
+[1] "Iteration 161 to find seed design."
+[1] "Iteration 162 to find seed design."
+[1] "Iteration 163 to find seed design."
+[1] "Iteration 164 to find seed design."
+[1] "Iteration 165 to find seed design."
+[1] "Iteration 166 to find seed design."
+[1] "Iteration 167 to find seed design."
+[1] "Iteration 168 to find seed design."
+[1] "Finite log(det(inf.mat)) found, -16.7701880443688"
+[1] "Invertible solution found."
+[1] "Iteration 1 (criterion = -821.9)"
+[1] "Iteration 2 (criterion = -266)"
+[1] "Iteration 3 (criterion = -161)"
+[1] "Iteration 4 (criterion = -94.87)"
+[1] "Iteration 5 (criterion = -73.17)"
+[1] "Iteration 6 (criterion = -68.19)"
+[1] "Iteration 7 (criterion = -63.43)"
+[1] "Iteration 8 (criterion = -60.3)"
+[1] "Iteration 9 (criterion = -57.4)"
+[1] "Iteration 10 (criterion = -54.69)"
+[1] "Iteration 11 (criterion = -52.03)"
+[1] "Iteration 12 (criterion = -49.82)"
+[1] "Iteration 13 (criterion = -48.2)"
+[1] "Iteration 14 (criterion = -46.85)"
+[1] "Iteration 15 (criterion = -45.49)"
+[1] "Iteration 16 (criterion = -44.49)"
+[1] "Iteration 17 (criterion = -43.49)"
+[1] "Iteration 18 (criterion = -42.61)"
+[1] "Iteration 19 (criterion = -41.73)"
+[1] "Iteration 20 (criterion = -40.87)"
+[1] "Iteration 1 (criterion = 0.0000000521)"
+[1] "Iteration 2 (criterion = 0.000007636)"
+[1] "Iteration 3 (criterion = 0.0006137)"
+[1] "Iteration 4 (criterion = 0.001526)"
+[1] "Iteration 5 (criterion = 0.003795)"
+[1] "Iteration 6 (criterion = 0.009167)"
+[1] "Iteration 7 (criterion = 0.02061)"
+[1] "Iteration 8 (criterion = 0.04183)"
+[1] "Iteration 9 (criterion = 0.06265)"
+[1] "Iteration 10 (criterion = 0.08479)"
+[1] "Iteration 11 (criterion = 0.1039)"
+[1] "Iteration 12 (criterion = 0.1272)"
+[1] "Iteration 13 (criterion = 0.1556)"
+[1] "Iteration 14 (criterion = 0.1722)"
+[1] "Iteration 15 (criterion = 0.1722)"
+Joining, by = c("LIGAND_1", "LIGAND_2")
+[1] "Critical Data:"
+# A tibble: 2 × 5
+  DESIGN         A     D  A.ap  D.ap
+  <chr>      <dbl> <dbl> <dbl> <dbl>
+1 A -optimal  31.5 0.968  40.9  1.30
+2 D -optimal  72.5 0.968  79.9  1.09
+[1] "Vertex Data:"
+# A tibble: 42 × 5
+   DESIGN     LIGAND       X       Y REF             
+   <chr>      <chr>    <dbl>   <dbl> <fct>           
+ 1 A -optimal lig_5a -1207.    276.  Reference Ligand
+ 2 A -optimal lig_1a -1525.    408.  Other           
+ 3 A -optimal lig_3a  -961.    277.  Other           
+ 4 A -optimal lig_3b -1284.    489.  Other           
+ 5 A -optimal lig_5f -1328.     42.2 Other           
+ 6 A -optimal lig_5h  -982.    105.  Other           
+ 7 A -optimal lig_1b -1729.    490.  Other           
+ 8 A -optimal lig_5d -1029.    483.  Other           
+ 9 A -optimal lig_5m -1380.    115.  Other           
+10 A -optimal lig_5e -1066.     42.9 Other           
+11 A -optimal lig_5b -1359.    421.  Other           
+12 A -optimal lig_5c -1206.    535.  Other           
+13 A -optimal lig_5g -1034.    390.  Other           
+14 A -optimal lig_5j -1160.     20.3 Other           
+15 A -optimal lig_5o -1055.    160.  Other           
+16 A -optimal lig_5n  -932.    193.  Other           
+17 A -optimal lig_5p  -928.    355.  Other           
+18 A -optimal lig_5i -1423.    187.  Other           
+19 A -optimal lig_5k -1240.     32.6 Other           
+20 A -optimal lig_7  -1401.    293.  Other           
+21 A -optimal lig_5l -1114.    508.  Other           
+22 D -optimal lig_5f    61.5  -741.  Other           
+23 D -optimal lig_5k   754.  -1100.  Other           
+24 D -optimal lig_5a   157.   -478.  Reference Ligand
+25 D -optimal lig_5g    26.1  -984.  Other           
+26 D -optimal lig_3a   368.   -303.  Other           
+27 D -optimal lig_5d   552.   -706.  Other           
+28 D -optimal lig_5n  1145.  -1140.  Other           
+29 D -optimal lig_1a   458.    -67.6 Other           
+30 D -optimal lig_5b   -33.8  -351.  Other           
+31 D -optimal lig_3b   532.   -457.  Other           
+32 D -optimal lig_5m   744.   -906.  Other           
+33 D -optimal lig_5l  -139.   -745.  Other           
+34 D -optimal lig_5i  -163.  -1079.  Other           
+35 D -optimal lig_7    501.   -867.  Other           
+36 D -optimal lig_5o   970.  -1010.  Other           
+37 D -optimal lig_1b   505.    121.  Other           
+38 D -optimal lig_5c  -225.   -283.  Other           
+39 D -optimal lig_5h   -26.5 -1182.  Other           
+40 D -optimal lig_5p  1300.  -1251.  Other           
+41 D -optimal lig_5e   733.   -631.  Other           
+42 D -optimal lig_5j  -112.   -163.  Other 

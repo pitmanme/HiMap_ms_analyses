@@ -1,0 +1,186 @@
+A suggested range for neighbor distances is between 0.865 and 1.0.
+The computed, default cutoff is 1.0.
+Enter a neighbor distance cutoff for clustering:0.865 
+Estimated number of clusters: 2
+Estimated number of noise points: 0
+Which clusters do you want to optimize?
+-----------------------------------------------------------------
+                    Cluster Selection table                      
+-----------------------------------------------------------------
+Input    Variable        Meaning   
+a        all             Optimize all clusters.
+w        w_ref_lig       Optimize clusters w/ reference ligands.
+ints     list of ints    Select cluster numbers from figure.
+-----------------------------------------------------------------
+<Hit Enter>
+Input a, w, or cluster numbers(ints):0
+The clusters found are:
+{
+    "0": [
+        "lig_1a",
+        "lig_1b",
+        "lig_3a",
+        "lig_3b",
+        "lig_5a",
+        "lig_5b",
+        "lig_5c",
+        "lig_5d",
+        "lig_5e",
+        "lig_5f",
+        "lig_5g",
+        "lig_5h",
+        "lig_5i",
+        "lig_5j",
+        "lig_5k",
+        "lig_5l",
+        "lig_5m",
+        "lig_5n",
+        "lig_5o",
+        "lig_5p",
+        "lig_7"
+    ],
+    "1": [
+        "lig_8a",
+        "lig_8b",
+        "lig_8c",
+        "lig_8d",
+        "lig_8e",
+        "lig_8f"
+    ]
+}
+The input number of edges is 27
+The reference ligand is lig_5a
+[1] "Preparing A optimization"
+[1] "Preparing D optimization"
+[1] "Number of ligands: 21"
+[1] "The number of chosen edges is 27"
+[1] "Iteration 1 to find seed design."
+[1] "Iteration 2 to find seed design."
+[1] "Iteration 3 to find seed design."
+[1] "Iteration 4 to find seed design."
+[1] "Iteration 5 to find seed design."
+[1] "Iteration 6 to find seed design."
+[1] "Iteration 7 to find seed design."
+[1] "Iteration 8 to find seed design."
+[1] "Iteration 9 to find seed design."
+[1] "Iteration 10 to find seed design."
+[1] "Iteration 11 to find seed design."
+[1] "Finite log(det(inf.mat)) found, NaN"
+[1] "Iteration 12 to find seed design."
+[1] "Iteration 13 to find seed design."
+[1] "Iteration 14 to find seed design."
+[1] "Iteration 15 to find seed design."
+[1] "Iteration 16 to find seed design."
+[1] "Iteration 17 to find seed design."
+[1] "Iteration 18 to find seed design."
+[1] "Iteration 19 to find seed design."
+[1] "Iteration 20 to find seed design."
+[1] "Iteration 21 to find seed design."
+[1] "Iteration 22 to find seed design."
+[1] "Iteration 23 to find seed design."
+[1] "Iteration 24 to find seed design."
+[1] "Finite log(det(inf.mat)) found, -4.63266241632983"
+[1] "Invertible solution found."
+[1] "Iteration 1 (criterion = -114.2)"
+[1] "Iteration 2 (criterion = -69.85)"
+[1] "Iteration 3 (criterion = -56.56)"
+[1] "Iteration 4 (criterion = -49.4)"
+[1] "Iteration 5 (criterion = -43.61)"
+[1] "Iteration 6 (criterion = -39.24)"
+[1] "Iteration 7 (criterion = -37.82)"
+[1] "Iteration 8 (criterion = -36.75)"
+[1] "Iteration 9 (criterion = -35.9)"
+[1] "Iteration 10 (criterion = -35.06)"
+[1] "Iteration 11 (criterion = -34.31)"
+[1] "Iteration 12 (criterion = -33.58)"
+[1] "Iteration 13 (criterion = -32.92)"
+[1] "Iteration 14 (criterion = -32.57)"
+[1] "Iteration 15 (criterion = -32.31)"
+[1] "Iteration 16 (criterion = -32.07)"
+[1] "Iteration 17 (criterion = -31.93)"
+[1] "Iteration 18 (criterion = -31.83)"
+[1] "Iteration 19 (criterion = -31.73)"
+[1] "Iteration 20 (criterion = -31.62)"
+[1] "Iteration 21 (criterion = -31.56)"
+[1] "Iteration 22 (criterion = -31.56)"
+[1] "Iteration 23 (criterion = -31.55)"
+[1] "Iteration 1 (criterion = 0.009729)"
+[1] "Iteration 2 (criterion = 0.3523)"
+[1] "Iteration 3 (criterion = 2.359)"
+[1] "Iteration 4 (criterion = 15.45)"
+[1] "Iteration 5 (criterion = 47.22)"
+[1] "Iteration 6 (criterion = 120.3)"
+[1] "Iteration 7 (criterion = 268.8)"
+[1] "Iteration 8 (criterion = 442.1)"
+[1] "Iteration 9 (criterion = 662.2)"
+[1] "Iteration 10 (criterion = 895.6)"
+[1] "Iteration 11 (criterion = 1126)"
+[1] "Iteration 12 (criterion = 1324)"
+[1] "Iteration 13 (criterion = 1534)"
+[1] "Iteration 14 (criterion = 1810)"
+[1] "Iteration 15 (criterion = 2010)"
+[1] "Iteration 16 (criterion = 2174)"
+[1] "Iteration 17 (criterion = 2309)"
+[1] "Iteration 18 (criterion = 2634)"
+[1] "Iteration 19 (criterion = 2779)"
+[1] "Iteration 20 (criterion = 2893)"
+[1] "Iteration 21 (criterion = 2959)"
+[1] "Iteration 22 (criterion = 3157)"
+[1] "Iteration 23 (criterion = 3324)"
+[1] "Iteration 24 (criterion = 3495)"
+[1] "Iteration 25 (criterion = 3532)"
+[1] "Iteration 26 (criterion = 3568)"
+[1] "Iteration 27 (criterion = 3595)"
+Joining, by = c("LIGAND_1", "LIGAND_2")
+[1] "Critical Data:"
+# A tibble: 2 × 5
+  DESIGN         A     D  A.ap  D.ap
+  <chr>      <dbl> <dbl> <dbl> <dbl>
+1 A -optimal  26.4 0.643  31.5 0.837
+2 D -optimal  35.9 0.569  41.5 0.677
+[1] "Vertex Data:"
+# A tibble: 42 × 5
+   DESIGN     LIGAND       X      Y REF             
+   <chr>      <chr>    <dbl>  <dbl> <fct>           
+ 1 A -optimal lig_5m 1135.   1171.  Other           
+ 2 A -optimal lig_5e 1019.   1672.  Other           
+ 3 A -optimal lig_5d 1059.   1526.  Other           
+ 4 A -optimal lig_1a  657.   1550.  Other           
+ 5 A -optimal lig_5j  862.   1636.  Other           
+ 6 A -optimal lig_5a  859.   1346.  Reference Ligand
+ 7 A -optimal lig_3a  538.   1383.  Other           
+ 8 A -optimal lig_3b  754.   1651.  Other           
+ 9 A -optimal lig_5k 1080.   1064.  Other           
+10 A -optimal lig_5n 1143.   1351.  Other           
+11 A -optimal lig_5o 1340.   1146.  Other           
+12 A -optimal lig_7   842.   1856.  Other           
+13 A -optimal lig_1b  418.   1588.  Other           
+14 A -optimal lig_5h  793.   1117.  Other           
+15 A -optimal lig_5c  668.   1358.  Other           
+16 A -optimal lig_5i  975.   1210.  Other           
+17 A -optimal lig_5f  600.    933.  Other           
+18 A -optimal lig_5g  894.   1112.  Other           
+19 A -optimal lig_5b  638.   1236.  Other           
+20 A -optimal lig_5l  698.   1152.  Other           
+21 A -optimal lig_5p 1300.   1460.  Other           
+22 D -optimal lig_5g  150.   -658.  Other           
+23 D -optimal lig_5m -431.   -762.  Other           
+24 D -optimal lig_5i -113.   -835.  Other           
+25 D -optimal lig_5d -492.     12.3 Other           
+26 D -optimal lig_5n -834.   -393.  Other           
+27 D -optimal lig_1a  306.    131.  Other           
+28 D -optimal lig_5j -303.   -140.  Other           
+29 D -optimal lig_5b -208.   -394.  Other           
+30 D -optimal lig_3a  118.    -62.8 Other           
+31 D -optimal lig_5f  -27.1  -529.  Other           
+32 D -optimal lig_5a  135.   -283.  Reference Ligand
+33 D -optimal lig_3b -171.     88.9 Other           
+34 D -optimal lig_5k -353.   -515.  Other           
+35 D -optimal lig_5e -474.   -244.  Other           
+36 D -optimal lig_5h  253.   -362.  Other           
+37 D -optimal lig_5o -700.   -638.  Other           
+38 D -optimal lig_7  -324.    118.  Other           
+39 D -optimal lig_1b  443.    273.  Other           
+40 D -optimal lig_5c   -1.33 -351.  Other           
+41 D -optimal lig_5p -749.   -126.  Other           
+42 D -optimal lig_5l -190.   -676.  Other  

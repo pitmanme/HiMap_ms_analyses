@@ -1,0 +1,74 @@
+tnks2
+Note: this is another example where the default of 1 makes it difficult to find a solution that works. The heatmap looks very bifurcated. I am going to rerun with a different epsilon value. It appears there is a peak at 0.81 in the raw map. Why is this outputing 1 as the epsilon value? I should possibly investigate this case for the clustering parameter selection. 
+
+Reran with eps ~0.86 (other predicted value). Got two clusters, running. 
+The clusters found are:
+{
+    "0": [
+        "lig_1a",
+        "lig_1b",
+        "lig_3a",
+        "lig_3b",
+        "lig_5a",
+        "lig_5b",
+        "lig_5c",
+        "lig_5d",
+        "lig_5e",
+        "lig_5f",
+        "lig_5g",
+        "lig_5h",
+        "lig_5i",
+        "lig_5j",
+        "lig_5k",
+        "lig_5l",
+        "lig_5m",
+        "lig_5n",
+        "lig_5o",
+        "lig_5p",
+        "lig_7"
+    ],
+    "1": [
+        "lig_8a",
+        "lig_8b",
+        "lig_8c",
+        "lig_8d",
+        "lig_8e",
+        "lig_8f"
+    ]
+}
+
+Cluster 0: 
+[1] "Preparing A optimization"
+[1] "Preparing D optimization"
+[1] "Number of ligands: 21"
+[1] "The minimum edge s= 20 , maximum = 211"
+[1] "The number of chosen edges is 42"
+[1] "Iteration to find seed design"
+[1] "Finite log(det(inf.mat)) found, 10.4498588455424"
+[1] "Invertible solution found."
+
+[1] "Critical Data:"
+# A tibble: 2 × 5
+  DESIGN                A     D  A.ap  D.ap
+  <chr>             <dbl> <dbl> <dbl> <dbl>
+1 A-optimal (lomap)  19.3 0.350  22.6 0.460
+2 D-optimal (lomap)  22.0 0.338  25.9 0.415
+
+Cluster 1: 
+
+
+The reference ligand is lig_8a
+[1] "Preparing A optimization"
+[1] "Preparing D optimization"
+[1] "Number of ligands: 6"
+[1] "The minimum edge s= 5 , maximum = 16"
+[1] "The number of chosen edges is 12"
+[1] "Iteration to find seed design"
+[1] "Finite log(det(inf.mat)) found, 4.31223545949305"
+
+[1] "Critical Data:"
+# A tibble: 2 × 5
+  DESIGN                A     D  A.ap  D.ap
+  <chr>             <dbl> <dbl> <dbl> <dbl>
+1 A-optimal (lomap)  5.07 0.344  6.16 0.460
+2 D-optimal (lomap)  5.07 0.344  6.16 0.460
