@@ -1,0 +1,19 @@
+pfkfb3
+The computed, default cutoff is 0.667.
+
+[1] "Preparing A optimization"
+[1] "Preparing D optimization"
+[1] "Number of ligands: 40"
+[1] "The minimum edge s= 39 , maximum = 781"
+[1] "The number of chosen edges is 80"
+[1] "Iteration to find seed design"
+[1] "Finite log(det(inf.mat)) found, -19.3902722278689"
+[1] "Invertible solution found."
+R[write to console]: Iteration 1 (criterion = -602.9)
+
+[1] "Critical Data:"
+# A tibble: 2 × 5
+  DESIGN                A     D  A.ap  D.ap
+  <chr>             <dbl> <dbl> <dbl> <dbl>
+1 A-optimal (lomap)  37.5 0.352  51.5 0.569
+2 D-optimal (lomap)  49.8 0.343  70.8 0.501
